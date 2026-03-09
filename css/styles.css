@@ -2,22 +2,27 @@
 body{
   justify-content: center;
   align-content: center;
-  background-color: grey;
-  color:white;
+  background-color: rgb(24, 8, 56);
+  color:rgb(188, 134, 34);
 }
 .flex{
   display: flex;
   flex-direction: column;
 }
-.imgdiv {
+
+.imgdiv{
+  justify-self: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;  
-  align-items: center;      
   width: 200px;
   height: 200px;
+  flex-wrap: wrap;
 }
+.img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
 footer{
   justify-items: center;
   align-items: center;
