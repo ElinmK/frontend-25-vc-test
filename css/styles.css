@@ -4,24 +4,28 @@ body{
   align-content: center;
   background-color: rgb(24, 8, 56);
   color:rgb(188, 134, 34);
+  padding: 0;
+  margin: 0;
 }
 
 header {
   background-color: white;
   height: 3rem;
-  
 }
 
 nav {
-  padding: 0.5rem;
+  padding: 0.1rem;
   display: flex;
   flex-direction: row;
-}
-
-.navbar {
   text-decoration: none;
   margin: 0.5rem;
 }
+
+a {
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
 
 .flex{
   display: flex;
