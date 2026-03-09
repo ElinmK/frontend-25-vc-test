@@ -1,8 +1,9 @@
+
 body{
   justify-content: center;
   align-content: center;
-  background-color: rgb(24, 8, 56);
-  color:rgb(188, 134, 34);
+  background-color: grey;
+  color:white;
 }
 .flex{
   display: flex;
@@ -16,17 +17,20 @@ img {
 
 .imgdiv{
   justify-self: center;
+}
+.imgdiv {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;  
+  align-items: center;      
   width: 200px;
   height: 200px;
-  flex-wrap: wrap;
-}
-.img{
-  max-width: 200px;
-  max-height: 200px;
 }
 
+.imgdiv img {
+  width: 100%;
+}
 footer{
   justify-items: center;
   align-items: center;
@@ -60,3 +64,4 @@ footer{
   color: red;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
